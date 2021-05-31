@@ -6,7 +6,7 @@
 
 		<PackageId>Squazz.Sugar</PackageId>
 		<!-- https://semver.org/#semantic-versioning-200 -->
-		<Version>0.2.0</Version>
+		<Version>0.2.1</Version>
 		<Title>Squazz.Sugar</Title>
 
 		<Authors>Squazz</Authors>
@@ -23,15 +23,15 @@
 
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
  
-		<DebugSymbols>True</DebugSymbols>
+		<!--<DebugSymbols>True</DebugSymbols>
 		<DebugType>Embedded</DebugType>
 		<EmbedAllSources>True</EmbedAllSources>
 
-		<!-- Optional: Publish the repository URL in the built .nupkg (in the NuSpec <Repository> element) -->
+		--><!-- Optional: Publish the repository URL in the built .nupkg (in the NuSpec <Repository> element) --><!--
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
  
-		<!-- Optional: Embed source files that are not tracked by the source control manager in the PDB -->
-		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		--><!-- Optional: Embed source files that are not tracked by the source control manager in the PDB --><!--
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>-->
   
 		<!-- Optional: Build symbol package (.snupkg) to distribute the PDB containing Source Link -->
 		<IncludeSymbols>true</IncludeSymbols>
