@@ -5,7 +5,7 @@
 		<RootNamespace>Squazz.Sugar</RootNamespace>
 
 		<PackageId>Squazz.Sugar</PackageId>
-		<Version>0.1</Version>
+		<Version>0.2.0</Version>
 		<Title>Squazz.Sugar</Title>
 
 		<Authors>Squazz</Authors>
