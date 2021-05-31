@@ -24,7 +24,7 @@
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
  
 		<DebugSymbols>True</DebugSymbols>
-		<!--<DebugType>Embedded</DebugType>-->
+		<!--<DebugType>Embedded</DebugType>--> <!-- This will embed PDB files in nupkg instead of own snupkg -->
 		<EmbedAllSources>True</EmbedAllSources>
 		
 		<!-- Optional: Publish the repository URL in the built .nupkg (in the NuSpec <Repository> element) -->
@@ -44,6 +44,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
 	</ItemGroup>
 </Project>
