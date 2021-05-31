@@ -2,12 +2,14 @@
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
+		<RootNamespace>Squazz.Sugar</RootNamespace>
 
 		<PackageId>Squazz.Sugar</PackageId>
 		<Version>0.1</Version>
 		<Title>Squazz.Sugar</Title>
 
 		<Authors>Squazz</Authors>
+		<Copyright>Squazz</Copyright>
 
 		<PackageTags>Squazz;Sugar;C#</PackageTags>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -18,9 +20,21 @@
 
 		<LangVersion>latest</LangVersion>
 
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+ 
+		<DebugSymbols>True</DebugSymbols>
+		<DebugType>Embedded</DebugType>
+		<EmbedAllSources>True</EmbedAllSources>
+
+		<!-- Optional: Publish the repository URL in the built .nupkg (in the NuSpec <Repository> element) -->
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+ 
+		<!-- Optional: Embed source files that are not tracked by the source control manager in the PDB -->
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+  
+		<!-- Optional: Build symbol package (.snupkg) to distribute the PDB containing Source Link -->
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
-		<!--<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>-->
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
