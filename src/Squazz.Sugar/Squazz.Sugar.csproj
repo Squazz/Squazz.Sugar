@@ -1,8 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-	<version>0.1</version>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+
+		<PackageId>Squazz.Sugar</PackageId>
+		<version>0.1</version>
+		<Title>Squazz.Sugar</Title>
+
+		<Authors>Squazz</Authors>
+
+		<PackageTags>Squazz;Sugar;C#</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/Squazz/Squazz.Sugar</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Squazz/Squazz.Sugar</RepositoryUrl>
+		<RepositoryBranch>main</RepositoryBranch>
+		<Description>Sugar for C# development</Description>
+	</PropertyGroup>
 
 </Project>
