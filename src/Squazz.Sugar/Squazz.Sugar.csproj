@@ -5,7 +5,8 @@
 		<RootNamespace>Squazz.Sugar</RootNamespace>
 
 		<PackageId>Squazz.Sugar</PackageId>
-		<Version>0.2.0</Version> <!-- https://semver.org/#semantic-versioning-200 -->
+		<!-- https://semver.org/#semantic-versioning-200 -->
+		<Version>0.2.0</Version>
 		<Title>Squazz.Sugar</Title>
 
 		<Authors>Squazz</Authors>
