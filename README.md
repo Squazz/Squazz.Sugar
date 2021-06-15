@@ -2,3 +2,5 @@
 
 # Squazz.Sugar
 Sugar for C# development
+
+Find it on [Nuget](https://www.nuget.org/packages/Squazz.Sugar/)
