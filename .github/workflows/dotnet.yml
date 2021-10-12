@@ -24,8 +24,11 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
       
+#    - name: Pack
+#      run: dotnet pack -v normal -c Release --no-restore --include-symbols --include-source -p:PackageVersion=$GITHUB_RUN_ID -p:RepositoryUrl=$REPO src/$PROJECT_NAME/$PROJECT_NAME.*proj
+      
     - name: Publish NuGet
-      uses: brandedoutcast/publish-nuget@v2
+      uses: Squazz/publish-nuget@v2
       with:
           PROJECT_FILE_PATH: src/Squazz.Sugar/Squazz.Sugar.csproj
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
