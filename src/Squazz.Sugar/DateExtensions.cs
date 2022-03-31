@@ -107,7 +107,7 @@ namespace Squazz.Sugar
 
         /// <summary>Returns a new <see cref="T:System.DateTimeOffset"></see> object that subtracts a specified number of years from the value of this instance.</summary>
         /// <param name="years">A number of years. The number can be negative or positive.</param>
-        /// <returns>An object whose value is the sum of the date and time represented by the current <see cref="T:System.DateTimeOffset"></see> object and the number of ticks represented by <paramref name="ticks">ticks</paramref>.</returns>
+        /// <returns>An object whose value is the sum of the date and time represented by the current <see cref="T:System.DateTimeOffset"></see> object and the number of ticks represented by <paramref name="years">ticks</paramref>.</returns>
         /// <exception cref="T:System.ArgumentOutOfRangeException">The resulting <see cref="T:System.DateTimeOffset"></see> value is less than <see cref="F:System.DateTimeOffset.MinValue"></see>.   -or-   The resulting <see cref="T:System.DateTimeOffset"></see> value is greater than <see cref="F:System.DateTimeOffset.MaxValue"></see>.</exception>
         public static DateTimeOffset SubtractYears(this DateTimeOffset dateTimeOffset, int years)
         {
