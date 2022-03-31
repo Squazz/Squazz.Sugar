@@ -37,8 +37,9 @@ namespace Squazz.Sugar
 
         public static IEnumerable<T> NullIfEmpty<T>(this IEnumerable<T> value)
         {
-            // ReSharper disable once PossibleMultipleEnumeration
+            // ReSharper disable PossibleMultipleEnumeration
             return IsNullOrEmpty(value) ? null : value;
+            // ReSharper enable PossibleMultipleEnumeration
         }
 
         public static IEnumerable<T> Distinct<T, TValue>(this IEnumerable<T> source, Func<T, TValue> keySelector, IEqualityComparer<TValue> comparer)
